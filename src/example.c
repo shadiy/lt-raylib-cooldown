@@ -1,7 +1,5 @@
-# lt-raylib-cooldown
-A single file header for cooldown displaying for raylib/raygui
+#include <stdio.h>
 
-```
 #include <raylib.h>
 
 #define RAYGUI_IMPLEMENTATION
@@ -35,4 +33,3 @@ int main(int argc, char *argv[]) {
     CloseWindow();
     return 0;
 }
-```
